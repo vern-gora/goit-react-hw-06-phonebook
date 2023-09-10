@@ -15,12 +15,12 @@ const Filter = () => {
     dispatch(filter(value));
   };
   return (
-    <div>
+    <>
       <Lable style={{ width: 400 }}>
         Find contacts by name
         <Input type="text" value={filterRedux} onChange={onFilterChange} />
       </Lable>
-    </div>
+    </>
   );
 };
 
